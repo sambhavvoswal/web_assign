@@ -338,7 +338,9 @@ footer .copyright {
     width: 40%;
     margin-right: 50px;
 }
-
+.Hover:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.10);
+}
 .small-img-group {
     display: flex;
     justify-content: space-between;
@@ -531,3 +533,10 @@ footer .copyright {
     border-radius: 4px;
 }
 
+.details{
+    width: 70%;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
